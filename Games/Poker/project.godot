@@ -11,9 +11,18 @@ config_version=5
 [application]
 
 config/name="Lobby"
-config/features=PackedStringArray("4.1", "Mobile")
+run/main_scene="res://scenes/test/TestScene.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Metamask="*res://addons/metamask/Metamask.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/metamask/plugin.cfg")
 
 [rendering]
 
-renderer/rendering_method="mobile"
+renderer/rendering_method="gl_compatibility"
