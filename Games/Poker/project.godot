@@ -17,11 +17,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Metamask="*res://addons/metamask/Metamask.tscn"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/metamask/plugin.cfg")
+Game="*res://scenes/demo/game.gd"
 
 [rendering]
 
