@@ -10,20 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Lobby"
-run/main_scene="res://scenes/test/TestScene.tscn"
-config/features=PackedStringArray("4.2", "Mobile")
+config/name="Poker"
+config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
-
-[autoload]
-
-Game="*res://scenes/demo/game.gd"
-Metamask="*res://addons/metamask/Metamask.tscn"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/metamask/plugin.cfg")
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
