@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="Server"
+run/main_scene="res://scenes/orchestrator/Orchestrator.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Game="*res://autoload/Game.gd"
+Connection="*res://autoload/Connection.gd"
+Logger="*res://autoload/Logger.gd"
 
 [rendering]
 

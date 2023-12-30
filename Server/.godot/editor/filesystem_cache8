@@ -1,3 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703191526
+::res://::1703892932
+Connection.tscn::PackedScene::2612989233133096278::1703892922::0::1::::<><>::res://autoload/Connection.gd
 icon.svg::CompressedTexture2D::3377241342278457441::1703191523::1703191527::1::::<><>::
+::res://assets/::1703879572
+::res://autoload/::1703892903
+Connection.gd::GDScript::-1::1703892197::0::1::::<>Node<>::
+Game.gd::GDScript::-1::1703881074::0::1::::<>Node<>::
+Logger.gd::GDScript::-1::1703892903::0::1::::<>Node<>::
+::res://scenes/::1703892629
+::res://scenes/orchestrator/::1703892852
+Orchestrator.gd::GDScript::-1::1703892588::0::1::::<>Node<>::
+Orchestrator.tscn::PackedScene::4313601602897858067::1703892852::0::1::::<><>::res://scenes/orchestrator/Orchestrator.gd
