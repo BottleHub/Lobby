@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://brhd70kxcfxnb"]
+
+[ext_resource type="Script" path="res://scenes/demo/Demo.gd" id="1_0qhj2"]
+
+[node name="Demo" type="Node2D"]
+script = ExtResource("1_0qhj2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 560.0
+offset_top = 296.0
+offset_right = 754.0
+offset_bottom = 380.0
+text = "Open Modal"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 528.0
+offset_top = 392.0
+offset_right = 784.0
+offset_bottom = 512.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

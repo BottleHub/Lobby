@@ -11,18 +11,20 @@ config_version=5
 [application]
 
 config/name="Poker"
-run/main_scene="res://scenes/test/TestScene.tscn"
+run/main_scene="res://scenes/demo/Demo.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Game="*res://scenes/demo/game.gd"
-Metamask="*res://addons/metamask/Metamask.tscn"
 
-[editor_plugins]
+[display]
 
-enabled=PackedStringArray("res://addons/metamask/plugin.cfg")
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/borderless=true
+window/stretch/mode="canvas_items"
 
 [rendering]
 
