@@ -16,4 +16,4 @@ func _process(delta):
 func _on_button_pressed():
 	if parent:
 		parent.modal3.open()
-		lab.set_text(parent.modal3)
+		lab.set_text("Godot Running on the Web")
